@@ -69,7 +69,7 @@ export default function LandingPage() {
 
       {!showRobot && (
         <div className={`content ${textVisible ? "visible" : ""}`}>
-          <h1>Welcome to RoboWorld</h1>
+          <h1>Welcome to AchRobot</h1>
           <p>Discover futuristic technology with interactive 3D robots.</p>
           <button onClick={() => setShowRobot(true)}>Get Started</button>
         </div>
